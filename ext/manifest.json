@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "PlainInspect – Fonts & Colors Inspector",
+  "short_name": "PlainInspect",
+  "version": "0.1.0",
+  "description": "Hover any text to see its font, size, weight and colors. See every font and color a page uses. No tracking.",
+  "permissions": ["activeTab", "scripting"],
+  "action": { "default_popup": "popup.html", "default_title": "PlainInspect" },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" }
+}

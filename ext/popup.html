@@ -1,0 +1,13 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><strong>PlainInspect</strong><span id="info"></span></header>
+<button id="inspect" class="primary">Inspect elements (hover) — Esc to exit</button>
+<h4>Fonts on this page</h4><div id="fonts"></div>
+<h4>Text colors</h4><div id="text" class="sws"></div>
+<h4>Background colors</h4><div id="bg" class="sws"></div>
+<p class="hint">Click a color to copy its hex.</p>
+<p class="exp">Export palette: <select id="fmt" aria-label="Palette format"><option value="css">CSS variables</option><option value="scss">SCSS</option><option value="tw4">Tailwind v4 @theme</option><option value="tw3">Tailwind v3 config</option><option value="json">JSON</option><option value="ase">Adobe swatches (.ase)</option><option value="gpl">GIMP/Inkscape (.gpl)</option></select> <button id="css">Copy</button></p>
+<div id="toast"></div>
+<script type="module" src="popup.js"></script>
+</body></html>
